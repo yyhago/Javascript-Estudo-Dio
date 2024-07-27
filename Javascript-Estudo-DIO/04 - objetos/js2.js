@@ -29,3 +29,6 @@ class Carro {
 // Criação de uma instância da classe Carro
 const uno = new Carro('Fiat', 'Prata', 1 / 12);
 console.log(`Gasto para percorrer 70 km: R$ ${uno.calcularGastoPercurso(70, 4).toFixed(2)}`);
+
+const lancer = new Carro('Lancer Evo X', 'Preto', 1/8);
+console.log(`Gasto para percorrer 70 km: R$ ${lancer.calcularGastoPercurso(70,4).toFixed(2)}`);
